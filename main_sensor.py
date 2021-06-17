@@ -39,8 +39,8 @@ print(temp_data)
 
 # Find your Account SID and Auth Token at twilio.com/console
 # and set the environment variables. See http://twil.io/secure
-account_sid = "ACc0e6fa2e310dfe07f875cf74eef7e7f2"
-auth_token = "012865fb213d43bce244d853dba97371"
+account_sid = os.environ['TWILIO_ACCOUNT_SID']
+auth_token = os.environ['TWILIO_AUTH_TOKEN']
 client = Client(account_sid, auth_token)
 
 str(temp_data)
