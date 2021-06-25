@@ -25,7 +25,11 @@ SECRET_KEY = '80*wwhn5yr8rw^ytl*$h(an)2_i9**wqgfyn#!@cu2_hu5_+a#'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.ngrok.io']
+#ALLOWED_HOSTS = ['.ngrok.io' 'mysubdomain.loca.lt']
+
+
+
+ALLOWED_HOSTS = ['mysubdomain.loca.lt']
 
 
 # Application definition
